@@ -1,0 +1,211 @@
+body {
+	background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/fresh_snow.png");
+	background-color:grey;
+}
+#top {
+	display: inline-block;
+	width:100%;
+	background-color:white;
+}
+
+#name {
+	float:left;
+	padding:20px 30px 20px 30px;
+	color:white;
+	background-color:#4aaaa5;
+	margin-left:10%;
+	margin-top:0;
+	margin-bottom:0;
+}
+
+#navigation{
+	float:right;
+	list-style-type: none;
+	margin-right:10%;
+	margin-top:30px;
+	padding: 0;
+}
+li:hover{
+	Border-bottom:solid black;
+}
+
+li {
+	display: inline;
+	border-right: 1px solid lightgrey;
+}
+li:last-child{
+	border-right: none;
+}
+
+li a {
+	color: grey;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+#main{
+	float-left;
+	width:450px;
+	background-color:white;
+	margin-left:10%;
+	margin-top:20px;
+	margin-right:0px;
+	padding:20px;
+	padding-top:5px;
+	display: inline-block;
+}
+h2{
+	color:#4aaaa5;
+	border-bottom-style:solid;
+	border-color:lightgrey;
+	font-size:180%;
+}
+
+#my_picture{
+	width: 175px;
+	float:left;
+	padding-right:20px;
+}
+
+p{
+	width:460px;
+	font-size:120%;
+}
+
+#connect{
+	float:right;
+	background-color:white;
+	margin-right:10%;
+	margin-top:20px;
+	padding:20px;
+	padding-top:5px;
+}
+#github{
+	width:40px;
+}
+#linkedin{
+	width:40px;
+}
+#stackoverflow{
+	width:40px;
+}
+ul{
+	padding-left:0px;
+}
+h3{
+	color:#4aaaa5;
+	position:center;
+	border-bottom-style:solid;
+	border-color:lightgrey;
+}
+#footer{
+	display:inline-block;
+	width:100%;
+	text-align:center;
+	background-color:#666666;
+	color:white;
+	margin-top:30px;
+	font-size:60%;
+	border-top-style:solid;
+	border-color:#4aaaa5;
+	border-width:5px;
+	padding:15px;
+}
+
+h5{
+	padding: 100px 20px 10px 20px;
+}
+#hangman{
+	background-image: url("http://www.sightwordsgame.com/wp-content/uploads/2011/11/Hangman.jpg");
+	background-repeat:no-repeat;
+}
+
+@media only screen and (max-width: 980px) {
+	#main{
+		width:40%;
+		margin-left:10%;
+		margin-right: 10px;
+	}
+
+	#my_picture{
+		width:100%;
+		margin-bottom: 5px;
+	}
+
+	p{
+		width:100%;
+		line-height:150%;
+	}
+
+	#connect{
+		width:235px;
+		margin-left:5px;
+		margin-right: 10px;
+		float:right;
+	}
+
+}
+
+@media only screen and (max-width: 768px) {
+	#name{
+		margin-left:10px;
+	}
+
+	#main{
+		width:90%;
+		margin-left:10px;
+		margin-right: 10px;
+	}
+	#my_picture{
+		width:45%;
+		margin-bottom: 5px;
+	}
+
+	p{
+		width:90%;
+		line-height:150%;
+	}
+
+	#connect{
+		width:90%;
+		margin-left:10px;
+		margin-right: 10px;
+		float:none;
+	}
+
+}
+
+
+@media only screen and (max-width: 640px) {
+	#name {
+		width:95%;
+		margin-left:0px;
+		text-align: center;
+	}
+
+	#navigation {
+		margin:20px 25%;
+	}
+	
+	li a {
+		width:33%;
+	}
+	
+	#main{
+		width:90%;
+		margin-left:10px;
+		margin-right: 10px;
+	}
+	#my_picture{
+		width:100%;
+		margin-bottom: 15px;
+	}
+
+	#connect{
+		width:90%;
+		margin-left:10px;
+		margin-right: 10px;
+		float:none;
+	}
+
+}
